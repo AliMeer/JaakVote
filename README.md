@@ -8,12 +8,12 @@ This includes the smart contract, js compile script, js mocha test script for al
 #### you can check the transactions via etherscan here: https://rinkeby.etherscan.io/address/0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
 
 
-## Source source contents
+## Source code contents
 
-### Smart contract: JaakVote/contracts/JaakVote.sol
-### Compile script: JaakVote/compile.js
-### Test script: JaakVote/test/jaakvote.test.js
-### Deployment script: JaakVote/deploy.js
+Smart contract: JaakVote/contracts/JaakVote.sol
+Compile script: JaakVote/compile.js
+Test script: JaakVote/test/jaakvote.test.js
+Deployment script: JaakVote/deploy.js
 
 ## Getting Started
 
@@ -35,9 +35,11 @@ npm run test
 ```
 
 ### Compile
-Please edit "JaakVote/deploy.js" to:
-> add your network mnomonic on line 6 so that RINKEBY_MNEM is a string with your mnemonic. 
-> You can also add your own network URL or infura api key/URL on line 8 so that PROVIDER_URL has the string equavalent of your specific netwrok URL or infura URL your api key. You can leave it as it is and use my infura URL
+>Please edit "JaakVote/deploy.js" to add your network mnomonic on line 6 so that RINKEBY_MNEM is a string with
+>your mnemonic. You can also add your own network URL or infura api key/URL on line 8 so that PROVIDER_URL has 
+>the string equavalent of your specific netwrok URL or infura URL your api key. You can leave it as it is and use
+>my infura URL
+
 Once done please run the following command on the command line:
 
 ```
