@@ -49,4 +49,4 @@ This will output the address where the contract was deployed and also the addres
 
 You can use this contract address for further interactive testing on http://remix.ethereum.org/ 
 
-## If you face any issues, please contract me via github or on ali@purple7.com
+## If you face any issues, please contact me via github or on ali@purple7.com
