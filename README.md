@@ -1,110 +1,50 @@
 # Jaak - Voting Contract
 
-A solidity smart contract written for the ethereum blockchain platform. This includes the smart contract, js compile script, mocha test cases for all scenarios in js. js deployment script to deploy to Rinkeby network.
+A solidity smart contract written for the ethereum blockchain platform. 
+This includes the smart contract, js compile script, js mocha test script for all scenarios. js deployment script to deploy to Rinkeby network.
+
+#### Contract is already deployed to Ethereum Rinkeby at: 0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
+
+#### you can check the transactions via etherscan here: https://rinkeby.etherscan.io/address/0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
+
 
 ## Source source contents
 
 ### Smart contract: JaakVote/contracts/JaakVote.sol
-
+### Compile script: JaakVote/compile.js
+### Test script: JaakVote/test/jaakvote.test.js
+### Deployment script: JaakVote/deploy.js
 
 ## Getting Started
 
 To use it yourself first git clone it locally. Once done you will need to compile, test and deploy.
 
+### Compile
 To compile please use:
 
 ```
 npm run compile
 ```
 
+### Test
 To test please use:
+This will execute the test cases specified in addition to a few more.
 
 ```
 npm run test
 ```
 
-To deploy please use:
+### Compile
+Please edit "JaakVote/deploy.js" to:
+> add your network mnomonic on line 6 so that RINKEBY_MNEM is a string with your mnemonic. 
+> You can also add your own network URL or infura api key/URL on line 8 so that PROVIDER_URL has the string equavalent of your specific netwrok URL or infura URL your api key. You can leave it as it is and use my infura URL
+Once done please run the following command on the command line:
 
 ```
 npm run deploy
 ```
+This will output the address where the contract was deployed and also the address that was used for deployment.
 
-### Prerequisites
+You can use this contract address for further interactive testing on http://remix.ethereum.org/ 
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+## If you face any issues, please contract me via github or on ali@purple7.com
