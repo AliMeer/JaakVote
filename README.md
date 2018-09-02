@@ -3,7 +3,7 @@
 A solidity smart contract written for the ethereum blockchain platform. 
 This includes the smart contract, js compile script, js mocha test script for all scenarios. js deployment script to deploy to Rinkeby network.
 
-#### Contract is already deployed to Ethereum Rinkeby at: 0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
+#### Contract is deployed to Ethereum Rinkeby at: 0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
 
 #### you can check the transactions via etherscan here: https://rinkeby.etherscan.io/address/0x8df9E28Ecff092dFE90A0fDf5334025c8b783CDa
 
