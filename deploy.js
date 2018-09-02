@@ -2,11 +2,16 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 
+//Add your mnemonic here
+const RINKEBY_MNEM = 'pull vintage tag universe cancel oval inner program mule praise strike tooth';
+//Add your provider URL or infura network URL or leave it as it is if you wish you use mine
+const PROVIDER_URL = 'https://rinkeby.infura.io/L8Yx8J89L13yZbFG30ey';
+
 const provider = new HDWalletProvider(
-    //mnemonic for ethereum address
-    'pull vintage tag universe cancel oval inner program mule praise strike tooth',
+    //mnemonic for ethereum account to deploy with
+    RINKEBY_MNEM,
     //using infuria as no local node running and not in browser
-    'https://rinkeby.infura.io/L8Yx8J89L13yZbFG30ey'
+    PROVIDER_URL
 );
 //this will create web3 instance with provider for rinkeby network
 const web3 = new Web3(provider);
